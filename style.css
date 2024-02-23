@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+
+}
+body{
+    
+    background-color: rgb(28, 53, 99);
+    color: white;
+}
+header{
+    
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.section-one h2{
+    font-size: 50px;
+    color: aqua;
+}
+.section-one h3{
+    font-size: 38px;
+}
+.section-two{
+    background-color: rgb(26, 26, 56);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.section-two ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
