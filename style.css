@@ -42,7 +42,8 @@ header{
 }
 .section-three{
     display: flex;
-    height: 200px;
+    height: 400px;
+    padding-bottom: 50px;
 
 }
 .div3-1{
@@ -64,4 +65,8 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }
