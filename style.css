@@ -3,7 +3,8 @@
 
 }
 body{
-    
+    height: 100%;
+    width: 100%;
     background-color: rgb(41, 38, 49);
     color: rgb(255, 255, 255);
 }
@@ -15,9 +16,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 700px;
-
-    padding: 20px;
 }
 .section-one h2{
     font-size: 50px;
@@ -41,9 +41,19 @@ header{
     gap: 3rem;
 }
 .section-three{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.section-four{
     display: flex;
     height: 400px;
     padding-bottom: 50px;
+    background-color: rgb(20, 20, 20);
 
 }
 .div3-1{
