@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+
 
 }
 body{
@@ -10,7 +12,26 @@ body{
 }
 header{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
 
+}
+header h1{
+    color: aqua;
+    font-weight: bold;
+}
+header ul{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul li:hover{
+    color: aqua;
+    
 }
 .section-one{
     display: flex;
