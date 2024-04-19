@@ -29,7 +29,8 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 0.5px solid #ccc;
-
+    position: fixed;
+    background-color: rgb(41, 38, 49);
 }
 header h1{
     color: aqua;
@@ -117,6 +118,7 @@ header ul li{
     align-items: center;
     justify-content: space-around;
     
+    
 }
 .third-section{
     display: flex;
@@ -126,10 +128,9 @@ header ul li{
     gap: 2rem;
     padding-top: 25px;
     padding-bottom: 45px;
-    
-    max-width: 1500px;
     flex-wrap: wrap;
-
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 .third-section > div{
     display: flex;
@@ -163,7 +164,7 @@ header ul li{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    max-width: 1600px;
+    
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -172,6 +173,7 @@ header ul li{
 }
 .divs-s4 p{
     padding-bottom: 10px;
+    color: beige;
 }
 .fourth-section > div{
     display: flex;
@@ -190,6 +192,9 @@ header ul li{
 .fourth-section > div img:hover{
     width: 37rem;
     border-radius: 10px;
+}
+.tittle{
+    font-size: 22px;
 }
 
 .fourth-section > div p{
