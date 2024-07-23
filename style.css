@@ -29,8 +29,7 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 0.5px solid #ccc;
-    position: fixed;
-    background-color: rgb(41, 38, 49);
+
 }
 header h1{
     color: aqua;
@@ -118,7 +117,6 @@ header ul li{
     align-items: center;
     justify-content: space-around;
     
-    
 }
 .third-section{
     display: flex;
@@ -126,11 +124,12 @@ header ul li{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding-top: 25px;
-    padding-bottom: 45px;
+    padding-top: 90px;
+    padding-bottom: 75px;
+    
+    max-width: 1500px;
     flex-wrap: wrap;
-    padding-bottom: 120px;
-    padding-top: 120px;
+
 }
 .third-section > div{
     display: flex;
@@ -164,7 +163,7 @@ header ul li{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    
+    max-width: 1600px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -173,7 +172,6 @@ header ul li{
 }
 .divs-s4 p{
     padding-bottom: 10px;
-    color: beige;
 }
 .fourth-section > div{
     display: flex;
@@ -192,9 +190,6 @@ header ul li{
 .fourth-section > div img:hover{
     width: 37rem;
     border-radius: 10px;
-}
-.tittle{
-    font-size: 22px;
 }
 
 .fourth-section > div p{
@@ -239,4 +234,50 @@ strong{
 form{
     display: flex;
     flex-direction: column;
+}
+
+
+@media screen and (max-width: 780px){
+
+    .section-one{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .section-two{
+        padding: 10%;
+    }
+
+    .section-two ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .third-section{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .section-four{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding-top: 25px;
+        padding: 20px;
+
+    }
+    .fourth-section > div img{
+        width: 25rem;
+        border-radius: 10px;
+        transition: .4s;
+        margin-bottom: 90px;
+    }
+    .fourth-section > div img:hover{
+        width: 27rem;
+        border-radius: 10px;
+    }
 }
